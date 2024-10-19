@@ -160,14 +160,15 @@ address {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  background-position: center;
 }
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
 }
 .picture-people-office {
-  background: linear-gradient(rgba(2e2F42), rgba(2e2F42));
-  max-width: 1440px;
+  background: linear-gradient(rgba(#2e2f42), rgba(#2e2f42));
 }
 .button {
   font-family: "Roboto", sans-serif;
