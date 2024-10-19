@@ -82,20 +82,11 @@ address {
   color: #2e2f42;
 }
 
-.hover-button:hover {
-  color: #404bbf;
-}
-.hover-button:focus {
-  color: #404bbf;
-}
-
-.header-menu-options:first-child:hover {
-  color: #404bbf;
-}
-.header-menu-options:first-child:focus {
-  color: #404bbf;
-}
-.header-menu-options:first-child:current {
+.hover-button:hover,
+.hover-button:focus,
+.header-menu-options:hover,
+.header-menu-options:focus,
+.header-menu-options:current {
   color: #404bbf;
 }
 .header-menu-options {
