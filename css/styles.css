@@ -353,6 +353,9 @@ address {
   background-color: #ffffff;
   gap: 24px;
 }
+.cosial-media-container {
+  padding: 32px 0;
+}
 .list-social-media {
   display: flex;
   justify-content: center;
