@@ -169,7 +169,7 @@ address {
   padding-bottom: 24px;
 }
 .picture-people-office {
-  background: linear-gradient(rgba(#2e2f42), rgba(#2e2f42));
+  background-color: linear-gradient(rgba(#2e2f42), rgba(#2e2f42));
 }
 .button {
   font-family: "Roboto", sans-serif;
