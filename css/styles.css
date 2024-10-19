@@ -301,7 +301,6 @@ address {
   padding-bottom: 120px;
 }
 .li-for-first-element {
-  display: flex;
   justify-content: space-evenly;
   padding: 120px 0;
 }
