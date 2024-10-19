@@ -106,7 +106,7 @@ address {
 .header-menu-options.current {
   position: relative;
 }
-.header-menu-options.current::before {
+.header-menu-options.current::after {
   content: "";
   position: absolute;
   left: 0;
