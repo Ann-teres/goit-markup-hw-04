@@ -456,9 +456,9 @@ address {
   width: calc((100% - 48px) / 3);
   position: relative;
 }
-.li-our-portfolio:hover {
+/* .tumba:hover {
   transform: translateY(0%);
-}
+} */
 .image-div {
   position: relative;
   overflow: hidden;
