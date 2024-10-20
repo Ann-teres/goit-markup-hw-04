@@ -408,10 +408,16 @@ address {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+.list-our-portfolio:hover {
+  transform: translateY(0%);
+}
 .tumba {
   position: relative;
+  overflow: hidden;
 }
 .new-text {
+  position: absolute;
+  top: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
