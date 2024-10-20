@@ -363,7 +363,10 @@ address {
 .li-social-media {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li-social-media:transition {
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   width: 100%;
