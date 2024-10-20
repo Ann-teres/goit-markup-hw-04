@@ -463,7 +463,11 @@ address {
 .li-our-portfolio:hover .new-text {
   transform: translateY(0);
 }
-.image-div {
+.thumba {
+  position: relative;
+  overflow: hidden;
+}
+.double-items-wrap {
   position: relative;
   overflow: hidden;
 }
