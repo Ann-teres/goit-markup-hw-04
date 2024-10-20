@@ -319,6 +319,9 @@ address {
 .emplyee {
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .section-second-header {
   font-family: roboto;
@@ -355,11 +358,7 @@ address {
   background-color: #ffffff;
   gap: 24px;
 }
-.cosial-media-container {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
+
 .li-social-media {
   width: 40px;
   height: 40px;
