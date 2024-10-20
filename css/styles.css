@@ -305,8 +305,8 @@ address {
   padding: 120px 0;
 }
 .wrap {
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex;
+  justify-content: space-evenly; */
   gap: 24px;
 }
 .our-team-section {
