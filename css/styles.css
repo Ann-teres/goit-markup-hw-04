@@ -412,6 +412,7 @@ address {
 .new-text {
   position: absolute;
   top: 0;
+  left: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -423,6 +424,9 @@ address {
   width: 100%;
   transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.image-color-wrapper {
+  position: relative;
 }
 .new-text:hover {
   transform: translateY(0%);
@@ -455,11 +459,8 @@ address {
 .li-our-portfolio {
   background-color: #fff;
   width: calc((100% - 48px) / 3);
-  position: relative;
 }
-/* .tumba:hover {
-  transform: translateY(0%);
-} */
+
 .image-div {
   position: relative;
   overflow: hidden;
