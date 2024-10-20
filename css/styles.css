@@ -407,6 +407,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .new-text {
@@ -422,7 +423,7 @@ address {
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
-  transform: translateY(0%);
+  transform: translateY(100%);
   transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .image-color-wrapper {
@@ -430,6 +431,8 @@ address {
 }
 .new-text:hover {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-wrap {
   font-weight: 500;
