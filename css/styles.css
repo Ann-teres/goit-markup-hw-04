@@ -319,9 +319,6 @@ address {
 .emplyee {
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 .section-second-header {
   font-family: roboto;
@@ -358,10 +355,15 @@ address {
   background-color: #ffffff;
   gap: 24px;
 }
-
+.ul-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .li-social-media {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
   width: 100%;
@@ -376,6 +378,12 @@ address {
   width: 16;
   height: 16;
   fill: #f4f4fd;
+}
+.icon-social-media.hover {
+  background-color: #404bbf;
+}
+.icon-social-media.focus {
+  background-color: #404bbf;
 }
 .picture {
   display: block;
