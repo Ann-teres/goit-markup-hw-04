@@ -408,13 +408,10 @@ address {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.list-our-portfolio:hover {
+/* .list-our-portfolio:hover {
   transform: translateY(0%);
-}
-.tumba {
-  position: relative;
-  overflow: hidden;
-}
+} */
+
 .new-text {
   position: absolute;
   top: 0;
@@ -458,7 +455,13 @@ address {
 .li-our-portfolio {
   width: calc((100% - 48px) / 3);
 }
-
+.li-our-portfolio:hover {
+  transform: translateY(0%);
+}
+.image-div {
+  position: relative;
+  overflow: hidden;
+}
 .section-four-mokeup-description {
   font-weight: 500;
   font-size: 20px;
