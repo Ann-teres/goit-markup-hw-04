@@ -375,14 +375,10 @@ address {
   justify-content: center;
 }
 .icon-social-media {
-  width: 16;
-  height: 16;
   fill: #f4f4fd;
 }
-.icon-social-media.hover {
-  background-color: #404bbf;
-}
-.icon-social-media.focus {
+.icon-social-media:hover,
+.icon-social-media:focus {
   background-color: #404bbf;
 }
 .picture {
