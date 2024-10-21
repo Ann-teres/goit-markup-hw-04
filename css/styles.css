@@ -552,6 +552,7 @@ address {
   margin-bottom: 16px;
 }
 .container-one {
+  margin-right: 120px;
 }
 .container-two {
   display: flex;
