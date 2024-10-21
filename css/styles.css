@@ -378,8 +378,11 @@ address {
 .icon-social-media {
   fill: #f4f4fd;
 }
-.icon-social-media:hover,
-.icon-social-media:focus {
+.icon-social-media.transition {
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link:hover,
+.social-link:focus {
   background-color: #404bbf;
 }
 
