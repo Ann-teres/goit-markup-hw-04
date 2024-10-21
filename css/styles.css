@@ -578,8 +578,8 @@ address {
   align-items: center;
   justify-content: center;
 }
-.social-link-footer.hover,
-.social-link-footer.focus {
+.social-link-footer:hover,
+.social-link-footer:focus {
   background-color: #31d0aa;
 }
 .icon-social-media-footer {
