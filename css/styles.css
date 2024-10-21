@@ -305,8 +305,6 @@ address {
   padding: 120px 0;
 }
 .wrap {
-  /* display: flex;
-  justify-content: space-evenly; */
   gap: 24px;
 }
 .our-team-section {
@@ -541,7 +539,36 @@ address {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.container-for-icons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
 .container-two {
   display: flex;
   align-items: baseline;
+}
+.ul-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.li-social-media-footer {
+  width: 40px;
+  height: 40px;
+}
+.social-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link-footer.focus,
+.social-link-footer.hover {
+  background-color: #31d0aa;
 }
